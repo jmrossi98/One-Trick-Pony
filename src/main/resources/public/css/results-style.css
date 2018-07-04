@@ -1,0 +1,97 @@
+@font-face {
+font-family: "Avenir";
+src: url("../fonts/AvenirLTStd-Roman.otf") format("opentype");
+}
+@font-face {
+font-family: "Avenir-Light";
+src: url("../fonts/AvenirLTStd-Light.otf") format("opentype");
+}
+body{
+  color:#ce9645;
+  background-image: url("../../../media/imgs/resultback.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image {
+  font-family: 'Avenir';
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  letter-spacing: 7px;
+}
+
+.home{
+    width: 20px;
+    margin: 20px;
+}
+
+.home:hover{
+  cursor: pointer;
+}
+
+#summonerName {
+ font-family: 'Avenir-Light';
+ color: #ce9645;
+ font-size: 2em;
+ text-transform: uppercase;
+}
+
+.underline{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: auto;
+	margin-left:150px;
+}
+
+.left{
+	padding-left:150px;
+}
+.mbottom{
+	margin-bottom:30px;
+}
+.stats{
+    padding: 100px;
+    
+}
+#summonerLevel {
+ font-family: 'Avenir-Light';
+ color: #ce9645;
+ font-size: 1.5em;
+}
+
+#summonerRank {
+ font-family: 'Avenir-Light';
+ color: #ce9645;
+ font-size: 1.5em;
+}
+
+#masteryScore {
+ font-family: 'Avenir-Light';
+ color: #ce9645;
+ font-size: 1.5em;
+}
+
+#mostPlayed {
+ font-family: 'Avenir-Light';
+ color: #ce9645;
+ font-size: 1.5em;
+ text-transform: uppercase;
+}
+
+#champPortrait{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+    width: 250px;
+    height: auto;
+    border: 1px solid #ce9645;
+
+}
+#masteryTitle{
+	margin-top:20px;
+}
